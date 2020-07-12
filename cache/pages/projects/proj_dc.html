@@ -1,0 +1,24 @@
+<p>Download the datafile <em>iris.data</em> from the <a class="reference external" href="https://archive.ics.uci.edu/ml/datasets/iris">UCI Machine Learning
+Repository</a>. This has
+five attributes with 150 instances. The last column of the data
+is a categorical attribute for the type of Iris flower.</p>
+<p>Write a script to implement the DENCLUE density-based clustering
+algorithm Algorithm 15.2 in chapter 15.  The script should take as input
+a dataset <span class="math">\(\mathbf{D}\)</span>, the minimum density <span class="math">\(\xi\)</span>, the tolerance for
+convergence <span class="math">\(\epsilon\)</span>, and the width <span class="math">\(h\)</span>. Do not make any
+assumptions about the data (i.e., column names, etc), except that the
+last column gives the &quot;true&quot; cluster id.</p>
+<p>Run your script on the iris dataset, with <span class="math">\(\epsilon=0.0001\)</span>. Your
+script should output the following:</p>
+<ul class="simple">
+<li><p>The number of clusters, and the size of each cluster</p></li>
+<li><p>The density attractor, followed by the set of point in that cluster.</p></li>
+<li><p>Purity of the clustering, based on the true id.</p></li>
+</ul>
+<p>For Iris, you should use a value of <span class="math">\(\xi\)</span> that gives you 3 clusters in
+the end, i.e., try different values and then finally report only the
+results for the value that gives you 3 clusters, since there are 3 true
+clusters in the data. Select the value of <span class="math">\(h\)</span> empirically.</p>
+<p>To speed up the computation for estimating the density at a point, you
+may want to first identify the K nearest neighbors, and use only those
+neighbors.</p>

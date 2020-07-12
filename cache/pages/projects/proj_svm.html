@@ -1,0 +1,18 @@
+<p>Your goal is to learn a SVM in the traditional dual formulation for the
+<a class="reference external" href="iris-slwc.txt">iris-slwc.txt</a> dataset. This is a simple 2D dataset,
+consisting of 2 dimensions (the sepal length and width), and the third
+column is the class (+1,-1). One of the class corresponds to
+iris-setosa, and the other class to other types of irises.</p>
+<p>Implement the stochastic gradient ascent algorithm 21.1 in chapter 21,
+with three different kernels, namely, the linear kernel, the
+inhomogeneous quadratic kernel, and the homogeneous quadratic kernel.
+Use <span class="math">\(\epsilon=0.0001\)</span> and <span class="math">\(C=10\)</span>, and hinge loss.</p>
+<p>At the end, print all values of non-zero <span class="math">\(\alpha_i\)</span>, i.e., for the
+support vectors, in the following format:</p>
+<p><span class="math">\(i, \alpha_i\)</span> one per line</p>
+<p>You should also print the number of support vectors.</p>
+<p>Do this for both the kernels. The results on the linear kernel should
+approximately match the hyperplane <span class="math">\(h_{10}\)</span> in example 21.7.</p>
+<p>To check when the quadratic kernel is useful. You may try the quadratic
+kernel on the <a class="reference external" href="iris-PC.txt">iris-PC.txt</a> data. The results should match
+those given in Example 21.8.</p>

@@ -1,0 +1,86 @@
+<p>Download the datafile <em>iris.data</em> from the <a class="reference external" href="https://archive.ics.uci.edu/ml/datasets/iris">UCI Machine Learning
+Repository</a>. This has
+five attributes with 150 instances. The last column of the data
+is a categorical attribute for the type of Iris flower.</p>
+<p>The goal of this part is to write a script to compute the decision tree
+for an input dataset. You can assume that all attributes are numeric,
+except for the last attribute which is the class.</p>
+<p>You should use the Information Gain based on Entropy for computing the
+best split value for each attribute. For the stopping criteria at a
+node, stop if the purity is at least 95% or stop if the node size is
+five or lower.</p>
+<p>Note that the best way to implement the splits for numeric attributes is
+to sort the values of that attribute from smallest to largest. Then you
+can use the mid-point between two distinct (consecutive) values as the
+split test of the form <span class="math">\(A \le v\)</span>. You can then update the class
+frequencies on both sides of the split and compute the split entropy for
+each decision. After comparing with the entropy for the node, you can
+find the best split for the current attribute. Now repeat the whole
+process for each numeric attribute at that node, and choose the best
+split over all attributes. Finally, split the data according to the best
+split, and repeat the whole method recursively, until the stopping
+conditions are met.</p>
+<p>Your script should output the final decision tree using the format
+described below. For example, for toy data below:</p>
+<table>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 43%" />
+<col style="width: 5%" />
+<col style="width: 29%" />
+</colgroup>
+<thead>
+<tr><th class="head"><p>Age</p></th>
+<th class="head"><p>CarType</p></th>
+<th class="head"></th>
+<th class="head"><p>Risk</p></th>
+</tr>
+</thead>
+<tbody>
+<tr><td><p>25</p></td>
+<td><p>1</p></td>
+<td></td>
+<td><p>L</p></td>
+</tr>
+<tr><td><p>20</p></td>
+<td><p>3</p></td>
+<td></td>
+<td><p>H</p></td>
+</tr>
+<tr><td><p>25</p></td>
+<td><p>1</p></td>
+<td></td>
+<td><p>L</p></td>
+</tr>
+<tr><td><p>45</p></td>
+<td><p>2</p></td>
+<td></td>
+<td><p>H</p></td>
+</tr>
+<tr><td><p>20</p></td>
+<td><p>1</p></td>
+<td></td>
+<td><p>H</p></td>
+</tr>
+<tr><td><p>25</p></td>
+<td><p>2</p></td>
+<td></td>
+<td><p>H</p></td>
+</tr>
+</tbody>
+</table>
+<p>The decision tree should be printed in the following format:</p>
+<pre class="literal-block">Decision: Car &lt;= 1.5 , Gain= 0.4591479
+    Decision: Age &lt;= 22.5 , Gain= 0.9182958
+        Leaf: label= H purity= 1 size= 1
+        Leaf: label= L purity= 1 size= 2
+    Leaf: label= H purity= 1 size= 3</pre>
+<p>Note that each internal node, print the decision followed by the
+Information Gain, and for each leaf, print the majority label, purity of
+the leaf, and the size. The indentation indicates the tree level. All
+nodes at the same level of indentation (tabs) are at the same level in
+the tree. For the tree above, <span class="math">\(Car &lt;= 1.5\)</span> is the root decision. Its
+left child is <span class="math">\(Age &lt;= 22.5\)</span>, and its right child is a leaf. Also, for
+<span class="math">\(Age \le 22.5\)</span> its left and right children appear immediately below
+it.</p>
+<p>Test your program on the iris dataset.</p>

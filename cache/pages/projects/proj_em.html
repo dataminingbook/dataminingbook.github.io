@@ -1,0 +1,33 @@
+<p>Download the datafile <em>iris.data</em> from the <a class="reference external" href="https://archive.ics.uci.edu/ml/datasets/iris">UCI Machine Learning
+Repository</a>. This has
+five attributes with 150 instances. The last column of the data
+is a categorical attribute for the type of Iris flower.</p>
+<p>Write a script that implements the Expectation-Maximization (EM)
+algorithm for clustering (see Algorithm 13.3 in Chapter 13). Run the
+code on the iris dataset. Use the first four attributes for clustering,
+and use the labels only for the purity-based clustering evaluation (see
+below). In your implementation, you should estimate the full covariance
+matrix for each cluster.</p>
+<p>For EM initialization, use the first <span class="math">\(n/k\)</span> points for cluster 1,
+the next <span class="math">\(n/k\)</span> for cluster 2, and so on. For convergence testing,
+you can compare the sum of the euclidean distance between the old means
+and the new means over the <span class="math">\(k\)</span> clusters. If this distance is less
+than <span class="math">\(\epsilon=0.001\)</span> you can stop the method.</p>
+<p>Your program output should consist of the following information:</p>
+<ol class="arabic simple">
+<li><p>The final mean for each cluster</p></li>
+<li><p>The final covariance matrix for each cluster</p></li>
+<li><p>Number of iterations the EM algorithm took to converge.</p></li>
+<li><p>Final cluster assignment of all the points, where each point will be assigned to the cluster that yields the highest probability <span class="math">\(P(C_i|\mathbf{x}_j)\)</span></p></li>
+<li><p>Final size of each cluster</p></li>
+</ol>
+<p>Finally, you must compute the <em>purity score</em> for your clustering,
+computed as follows: Assume that <span class="math">\(C_i\)</span> denotes the set of points
+assigned to cluster <span class="math">\(i\)</span>  by the EM algorithm, and let <span class="math">\(T_i\)</span>
+denote the true assignments of the points based on the last attribute.
+Purity score is defined as:</p>
+<div class="math">
+\begin{equation*}
+Purity= \frac{1}{n} \sum_{i=1}^k max_{j=1}^k \{C_i  \cap T_j\}
+\end{equation*}
+</div>

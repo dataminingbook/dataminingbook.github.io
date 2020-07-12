@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#
+" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Graph Analysis | Data Mining and Machine Learning</title>
+<link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<meta name="theme-color" content="#1f94cf">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="../../rss.xml">
+<link rel="canonical" href="https://www.dataminingbook.info/projects/proj_ga/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><!-- Font Awesome --><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script><meta name="author" content="Zaki&amp;Meira">
+<meta property="og:site_name" content="Data Mining and Machine Learning">
+<meta property="og:title" content="Graph Analysis">
+<meta property="og:url" content="https://www.dataminingbook.info/projects/proj_ga/">
+<meta property="og:description" content="For this implementation project, you may use networkx in Python or igraph in Python and R.
+
+Network Properties for Ecoli
+Download the file Ecoli.txt that gives the gene network for E.Coli. It
+has an (">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2020-07-12T11:30:54-04:00">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-expand-md static-top mb-4
+navbar-dark bg-dark
+"><div class="container">
+<!-- This keeps the margins nice -->
+        <a class="navbar-brand" href="../../">
+
+            <span id="blog-title">Data Mining and Machine Learning</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="bs-navbar">
+            <ul class="navbar-nav mr-auto">
+<li class="nav-item">
+<a href="../../book_html" class="nav-link">ReadOnline</a>
+                </li>
+<li class="nav-item">
+<a href="../../errata" class="nav-link">Errata</a>
+                </li>
+<li class="nav-item">
+<a href="../../resources" class="nav-link">Resources</a>
+                </li>
+<li class="nav-item">
+<a href="../../videos" class="nav-link">Videos</a>
+
+                
+            </li>
+</ul>
+<ul class="navbar-nav navbar-right"></ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        
+        
+        
+<article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Graph Analysis</a></h1>
+
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<p>For this implementation project, you may use <a class="reference external" href="https://networkx.github.io/">networkx</a> in Python or <a class="reference external" href="https://igraph.org">igraph</a> in Python and R.</p>
+<div class="section" id="network-properties-for-ecoli">
+<h2>Network Properties for Ecoli</h2>
+<p>Download the file <a class="reference external" href="Ecoli.txt">Ecoli.txt</a> that gives the gene network for E.Coli. It
+has an (undirected) edge whenever there is an interaction between the
+two genes.</p>
+<p>Write an script to compute several of the graph properties for the E.coli network:</p>
+<ul class="simple">
+<li><p><em>Diameter</em>: Compute the diameter. Note that normally, $d_{ij}$,
+the distance (shortest path length) between node $i$ and $j$, is
+considered to be infinity if $i$ cannot reach $j$. For this
+assignment, simply ignore $d_{ij}$ if $i$ cannot reach $j$. In
+other words, compute the diameter as the maximum $d_{ij}$ over all
+reachable pairs $i$ and $j$. <em>Note</em>: do not use the builtin
+<em>diameter</em> function in networkx/igraph. However you may compute the
+shortest paths using the <em>shortest paths</em> functions.</p></li>
+<li><p><em>Degree Distribution</em>: Print the degree distribution of the Ecoli
+network. Next, plot the degree $k$ and the probability $P(k)$ in a
+log-log plot to see whether the plot looks like a straight line. Use
+the linear regression function to fit a line to the log-log data, and
+plot the line and print its slope, corresponding to the exponent in
+the power-law degree distribution: <span class="math">\(P(k) \propto k^{-\gamma}\)</span>. You
+may omit the first few and last few degree values to get a better fit.
+Use your judgement to get a "good" fit. <em>Note</em>: do not use the
+builtin degree distribution related functions.</p></li>
+<li><p><em>Clustering Coefficient</em>: Compute the clustering coefficient for
+the graph. If a node has degree less than 2, assume that its local
+clustering coefficient is 0. <em>Note</em>: do not use the builtin
+<em>transitivity</em>, or <em>clustering coefficient</em>, or related functions.</p></li>
+</ul>
+</div>
+<div class="section" id="page-rank-in-e-coli">
+<h2>Page Rank in E. Coli</h2>
+<p>Download the file <a class="reference external" href="Ecoli-directed.txt">Ecoli-directed.txt</a> that gives the gene regulatory
+network for E.Coli. It has a directed edge from gene $u$ to gene
+$v$, if $u$ controls $v$. Create a directed graph from these
+edges.</p>
+<p>Compute the pagerank for each gene, via the power-iteration method,
+assuming that $d=0.1$, that is with probability 0.1 we follow a random
+link, and with probability 0.9 an existing link from each node. That is
+write a function to find the dominant eigenvector and eigenvalue for the
+pagerank matrix of the directed Ecoli graph. One can compute the
+dominant eigen-vector/-value of a matrix <span class="math">\(\mathbf{M}\)</span> iteratively
+as follows.</p>
+<p>Let <span class="math">\(\mathbf{x}_0 = \begin{pmatrix} 1 \\ 1\\ \vdots \\ 1
+\end{pmatrix}\)</span> be the starting vector. In each iteration $i$, we compute
+the new vector:</p>
+<div class="math">
+\begin{equation*}
+\mathbf{x}_i = \mathbf{M} \; \mathbf{x}_{i-1}
+\end{equation*}
+</div>
+<p>We then find the element of <span class="math">\(\mathbf{x}_i\)</span> that  has the maximum
+absolute value, say at index $m$. For the next round, to avoid numerical
+issues with large values, we re-scale <span class="math">\(\mathbf{x}_i\)</span> by dividing
+all elements by <span class="math">\(\mathbf{x}_{im}\)</span>, so that the largest value is
+always 1 before we begin the  next      iteration. To test convergence, you
+may test the magnitude of the difference between the old and new scaled
+vector, i.e., <span class="math">\(\|\mathbf{x}_i - \mathbf{x}_{i-1}\|\)</span>,  and you can
+stop if the difference between these two falls below some threshold, say
+0.001.</p>
+<p>Run your iterative dominant eigensolver on the Ecoli-directed dataset.
+Find the dominant eigen-value and eigen-vector. For the final
+eigen-vector, make sure to normalize it, so that it has unit length.
+Print the top 10 genes according to pagerank. Note: do not use the
+builtin <strong>page rank</strong>  or <strong>eigen</strong> methods.</p>
+</div>
+</div>
+    </div>
+    
+        
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script><script>
+                renderMathInElement(document.body,
+                    {
+                        
+delimiters: [
+    {left: "$$", right: "$$", display: true},
+    {left: "\\[", right: "\\]", display: true},
+    {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+    {left: "$", right: "$", display: false},
+    {left: "\\(", right: "\\)", display: false}
+]
+
+                    }
+                );
+            </script></article><!--End of body content--><footer id="footer">
+            Contents © 2020         <a href="mailto:contact@dataminingbook.info">Zaki&amp;Meira</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            
+            
+        </footer>
+</div>
+</div>
+
+
+        <script src="../../assets/js/all-nocdn.js"></script><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+    }});
+    </script><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-51598474-1"></script><script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-51598474-1');
+</script>
+</body>
+</html>
