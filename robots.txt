@@ -1,4 +1,0 @@
-Sitemap: https://www.dataminingbook.info/sitemapindex.xml
-
-User-Agent: *
-Host: www.dataminingbook.info
