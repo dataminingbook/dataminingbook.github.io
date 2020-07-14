@@ -32,7 +32,15 @@ Chapter 12
 * pg 311, table 12.12: *conv* should be :math:`\infty` for rows 1 and 3, since *conf* is 1
 
 
+Chapter 15
+==========
+
+* pg 377, Algorithm 15.1, Line 17: if :math:`\mathbf{y} \in Core`
+  **should be** if :math:`\mathbf{y} \in Core` and :math:`id(\mathbf{y}) = \emptyset`
+
+  This will prevent an infinite loop.
+
 Chapter 22
 ==========
 
-* pg 549, eq 22.7: :math:`\frac{1}{k} \sum_{i=1}^r F_i` should be :math:`\frac{1}{k} \sum_{i=1}^k F_i`
+* pg 549, eq 22.7: :math:`\frac{1}{k} \sum_{i=1}^r F_i` **should be** :math:`\frac{1}{k} \sum_{i=1}^k F_i`
