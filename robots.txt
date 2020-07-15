@@ -1,4 +1,4 @@
-Sitemap: https://dataminingbook.github.io/sitemapindex.xml
+Sitemap: https://www.dataminingbook.info/sitemapindex.xml
 
 User-Agent: *
-Host: dataminingbook.github.io
+Host: www.dataminingbook.info
