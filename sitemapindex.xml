@@ -6,11 +6,11 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://dataminingbook.info/rss.xml</loc>
-  <lastmod>2020-07-15T04:05:00Z</lastmod>
+  <loc>https://www.dataminingbook.info/rss.xml</loc>
+  <lastmod>2020-07-15T04:12:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://dataminingbook.info/sitemap.xml</loc>
-  <lastmod>2020-07-15T04:05:00Z</lastmod>
+  <loc>https://www.dataminingbook.info/sitemap.xml</loc>
+  <lastmod>2020-07-15T04:12:00Z</lastmod>
  </sitemap>
 </sitemapindex>
