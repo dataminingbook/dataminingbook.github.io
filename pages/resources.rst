@@ -24,50 +24,104 @@ You can access the :doc:`lecture videos <videos>` for the data mining course off
 Slides
 ======
 
-Complete latex sources for all slides GitHub (latest). These are also available in ZIP format.
+Complete `latex sources <https://github.com/zakimjz/dmbook-slides>`_ for all slides are available. Below we include the PDF and PPT versions.
 
 
 PART I. DATA ANALYSIS FOUNDATIONS
 
-* 1 Data Mining and Analysis
-* 2 Numeric Attributes
-* 3 Categorical Attributes
-* 4 Graph Data
-* 5 Kernel Methods
-* 6 High-dimensional Data
-* 7 Dimensionality Reduction
+* 1 Data Mining and Analysis: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap1.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap1.pdf.pptx>`_ 
+* 2 Numeric Attributes: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap2.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap2.pdf.pptx>`_
+* 3 Categorical Attributes: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap3.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap3.pdf.pptx>`_
+* 4 Graph Data: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap4.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap4.pdf.pptx>`_
+* 5 Kernel Methods: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap5.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap5.pdf.pptx>`_
+* 6 High-dimensional Data: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap6.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap6.pdf.pptx>`_
+* 7 Dimensionality Reduction: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap7.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap7.pdf.pptx>`_
 
 PART II. FREQUENT PATTERN MINING
 
-* 8 Itemset Mining
-* 9 Summarizing Itemsets
-* 10 Sequence Mining
-* 11 Graph Pattern Mining
-* 12 Pattern and Rule Assessment
+* 8 Itemset Mining: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap8.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap8.pdf.pptx>`_
+* 9 Summarizing Itemsets: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap9.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap9.pdf.pptx>`_
+* 10 Sequence Mining: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap10.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap10.pdf.pptx>`_
+* 11 Graph Pattern Mining: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap11.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap11.pdf.pptx>`_
+* 12 Pattern and Rule Assessment: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap12.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap12.pdf.pptx>`_
 
 PART III. CLUSTERING
 
-* 13 Representative-based Clustering
-* 14 Hierarchical Clustering
-* 15 Density-based Clustering
-* 16 Spectral and Graph Clustering
-* 17 Clustering Validation
+* 13 Representative-based Clustering: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap13.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap13.pdf.pptx>`_
+* 14 Hierarchical Clustering: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap14.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap14.pdf.pptx>`_
+* 15 Density-based Clustering: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap15.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap15.pdf.pptx>`_
+* 16 Spectral and Graph Clustering: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap16.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap16.pdf.pptx>`_
+* 17 Clustering Validation: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap17.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap17.pdf.pptx>`_
 
 PART IV. CLASSIFICATION
 
-* 18 Probabilistic Classification
-* 19 Decision Tree Classifier
-* 20 Linear Discriminant Analysis
-* 21 Support Vector Machines
-* 22 Classification Assessment
+* 18 Probabilistic Classification: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap18.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap18.pdf.pptx>`_
+* 19 Decision Tree Classifier: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap19.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap19.pdf.pptx>`_
+* 20 Linear Discriminant Analysis: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap20.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap20.pdf.pptx>`_
+* 21 Support Vector Machines: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap21.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap21.pdf.pptx>`_
+* 22 Classification Assessment: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap22.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap22.pdf.pptx>`_
 
 PART V. REGRESSION
 
-* 23 Linear Regression
-* 24 Logistic Regression
-* 25 Neural Networks
-* 26 Deep Learning
-* 27 Regression Evaluation
+* 23 Linear Regression: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap23.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap23.pdf.pptx>`_
+* 24 Logistic Regression: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap24.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap24.pdf.pptx>`_
+* 25 Neural Networks: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap25.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap25.pdf.pptx>`_
+* 26 Deep Learning: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap26.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap26.pdf.pptx>`_
+* 27 Regression Evaluation: `PDF
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/pdf/ychap27.pdf>`_, `PPT
+  <https://www.cs.rpi.edu/~zaki/DMML/slides/ppt/ychap27.pdf.pptx>`_
 
 Implementation-based Projects
 ===============================
