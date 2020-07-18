@@ -13,7 +13,7 @@ review on `Amazon`_, and cite us as follows:
 
 * Mohammed J. Zaki, Wagner Meira, Jr., Data Mining and Machine Learning: Fundamental Concepts and Algorithms, 2nd Edition, Cambridge University Press, March 2020. ISBN: 978-1108473989.
 
-No unauthorized distribution shall be allowed. You can buy the book from:
+**No unauthorized distribution is allowed**. You can buy the book from:
 
 +------------+--+---------------+
 |  |CUP|_    |  |  |amazon|_    |

@@ -13,7 +13,7 @@ This page contains online book resources for instructors and students. You can
 Solutions Manual
 ================
 
-Solutions are available for Instructors. Please `email us <contact@dataminingbook.info>`_ from an official university/academic email address to request the solutions manual.
+Solutions are available for Instructors. Please `email us <contact@dataminingbook.info>`_ from an official university/academic email address to request the solutions manual (please also provide a URL to your official academic webpage/course page to verify that you are a faculty member).
 
 
 Lecture Videos
