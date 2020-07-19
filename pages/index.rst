@@ -51,7 +51,7 @@ This second edition has the following new features and content:
 
 * New part five on regression: contains chapters on linear regression,
   logistic regression, neural networks (multilayer perceptrons), deep
-  learning (recurrent and concolutional neural networks), and regression
+  learning (recurrent and convolutional neural networks), and regression
   assessment.
 
 * Expanded material on ensemble models in chapter 24.
