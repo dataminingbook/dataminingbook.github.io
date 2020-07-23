@@ -40,6 +40,14 @@ Chapter 15
 
   This will prevent an infinite loop.
 
+Chapter 17
+==========
+
+* pg 465, Q3, line 3: delete the entire line that reads: :math:`\mathcal{T}` is
+  completely determined by :math:`\mathcal{C}`
+
+
+
 Chapter 22
 ==========
 
