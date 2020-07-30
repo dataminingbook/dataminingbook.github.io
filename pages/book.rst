@@ -33,6 +33,8 @@ Online Chapters
 
 * `Front Matter <frontmatter/book-watermark.html>`_
 
+* `Contents <toc/book-watermark.html>`_
+
 * `Preface <preface/book-watermark.html>`_
 
 * `PART I. DATA ANALYSIS FOUNDATIONS <part1/book-watermark.html>`_
