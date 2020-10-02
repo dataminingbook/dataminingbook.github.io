@@ -52,3 +52,11 @@ Chapter 22
 ==========
 
 * pg 549, eq 22.7: :math:`\frac{1}{k} \sum_{i=1}^r F_i` **should be** :math:`\frac{1}{k} \sum_{i=1}^k F_i`
+  
+
+  
+Chapter 23
+==========
+
+* pg 600, last line: matrix withi **should be** matrix with
+
