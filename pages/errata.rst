@@ -12,6 +12,12 @@ This page contains the errata for the second edition. You can
 `contact us via email <contact@dataminingbook.info>`_ if you want to report any errors.
 
 
+Chapter 7
+==========
+
+* pg 208, Algorithm 7.2, line 7: in the denominator 
+  :math:`\sum_{i=1}^d \lambda_i` **should be** math:`\sum_{i=1}^n \lambda_i` 
+
 Chapter 8
 ==========
 
