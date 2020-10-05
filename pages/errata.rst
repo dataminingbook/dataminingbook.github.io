@@ -16,7 +16,7 @@ Chapter 7
 ==========
 
 * pg 208, Algorithm 7.2, line 7: in the denominator 
-  :math:`\sum_{i=1}^d \lambda_i` **should be** math:`\sum_{i=1}^n \lambda_i` 
+  :math:`\sum_{i=1}^d \lambda_i` **should be** :math:`\sum_{i=1}^n \lambda_i` 
 
 Chapter 8
 ==========
