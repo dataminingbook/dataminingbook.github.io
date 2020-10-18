@@ -11,6 +11,11 @@
 This page contains the errata for the second edition. You can 
 `contact us via email <contact@dataminingbook.info>`_ if you want to report any errors.
 
+Chapter 3
+==========
+
+* pg 74, Table 3.4: :math:`\mathbf{e}_{22}` **should be** :math:`\mathbf{e}_{12}` 
+
 
 Chapter 7
 ==========
