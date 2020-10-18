@@ -66,3 +66,9 @@ Chapter 23
 
 * pg 600, last line: matrix withi **should be** matrix with
 
+
+Chapter 24
+==========
+
+* pg 630, line 5: 0.54 **should be** 0.56
+
