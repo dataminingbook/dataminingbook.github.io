@@ -51,6 +51,14 @@ Chapter 15
 
   This will prevent an infinite loop.
 
+
+Chapter 16
+==========
+
+* pg 420, Line 10: A strongly connectedcomponent 
+  **should be** A strongly connected component
+
+
 Chapter 17
 ==========
 
