@@ -20,6 +20,7 @@ Lecture Videos
 ==============
 You can access the :doc:`lecture videos <videos>` for the data mining course offered at RPI in Fall 2019.
 
+You can also access the lectures in Portugese at the `Youtube Channel <https://www.youtube.com/channel/UCUN8yMTrizS5GGaGnyj9y_g>`_ (you can also change the language under Settings to generate closed captioning in English or your language of choice.)
 
 Slides
 ======

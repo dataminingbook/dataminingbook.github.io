@@ -35,6 +35,9 @@ Chapter 10
 
 * pg 265, fig 10.2: nodes labeled *C, AT, GT, TA, TG, AAA, AGA* and *AGG* should be shaded gray. Also, extensions of an infrequent pattern are not shown.
 
+* pg 270, fig 10.4, part (f): label on the edge to leaf (1,5) should be
+  :math:`T$`
+
 Chapter 12
 ==========
 
