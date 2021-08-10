@@ -35,7 +35,8 @@ pg 74, Table 3.4: \(\mathbf{e}_{22}\) should be \(\mathbf{e}_{12}\)
 <!-- Menubar -->
 
 <nav class="navbar navbar-expand-md static-top mb-4
-navbar-dark bg-dark
+navbar-dark
+bg-dark
 "><div class="container">
 <!-- This keeps the margins nice -->
         <a class="navbar-brand" href="../">
@@ -106,6 +107,8 @@ navbar-dark bg-dark
 <h2>Chapter 10</h2>
 <ul class="simple">
 <li><p>pg 265, fig 10.2: nodes labeled <em>C, AT, GT, TA, TG, AAA, AGA</em> and <em>AGG</em> should be shaded gray. Also, extensions of an infrequent pattern are not shown.</p></li>
+<li><p>pg 270, fig 10.4, part (f): label on the edge to leaf (1,5) should be
+<span class="math">\(T$\)</span></p></li>
 </ul>
 </div>
 <div class="section" id="chapter-12">
@@ -176,7 +179,7 @@ delimiters: [
                     }
                 );
             </script></article><!--End of body content--><footer id="footer">
-            Contents © 2020         <a href="mailto:contact@dataminingbook.info">Zaki&amp;Meira</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            Contents © 2021         <a href="mailto:contact@dataminingbook.info">Zaki&amp;Meira</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
             
             
         </footer>
@@ -187,9 +190,7 @@ delimiters: [
         <script src="../assets/js/all-nocdn.js"></script><script>
     baguetteBox.run('div#content', {
         ignoreClass: 'islink',
-        captions: function(element) {
-            return element.getElementsByTagName('img')[0].alt;
-    }});
+        captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
     </script><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-51598474-1"></script><script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
