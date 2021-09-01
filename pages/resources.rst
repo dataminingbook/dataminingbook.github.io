@@ -22,6 +22,12 @@ You can access the :doc:`lecture videos <videos>` for the data mining course off
 
 You can also access the lectures in Portugese at the `Youtube Channel <https://www.youtube.com/channel/UCUN8yMTrizS5GGaGnyj9y_g>`_ (you can also change the language under Settings to generate closed captioning in English or your language of choice.)
 
+Datasets
+========
+
+The datasets used for the examples in the book can be downloaded here:
+`Datasets.zip <https://www.cs.rpi.edu/~zaki/DMML/datasets.zip>`_
+
 Slides
 ======
 
