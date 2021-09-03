@@ -30,52 +30,52 @@ online use. Please cite the book as follows:
 Online Chapters
 ---------------
 
-* `Front Matter <frontmatter/book-watermark.html>`_
+* `Front Matter <frontmatter/book.html>`_
 
-* `Contents <toc/book-watermark.html>`_
+* `Contents <toc/book.html>`_
 
-* `Preface <preface/book-watermark.html>`_
+* `Preface <preface/book.html>`_
 
-* `PART I. DATA ANALYSIS FOUNDATIONS <part1/book-watermark.html>`_
+* `PART I. DATA ANALYSIS FOUNDATIONS <part1/book.html>`_
 
-  + `1 Data Mining and Analysis <chap1/book-watermark.html>`_
-  + `2 Numeric Attributes <chap2/book-watermark.html>`_
-  + `3 Categorical Attributes <chap3/book-watermark.html>`_
-  + `4 Graph Data <chap4/book-watermark.html>`_
-  + `5 Kernel Methods <chap5/book-watermark.html>`_
-  + `6 High-dimensional Data <chap6/book-watermark.html>`_
-  + `7 Dimensionality Reduction <chap7/book-watermark.html>`_
+  + `1 Data Mining and Analysis <chap1/book.html>`_
+  + `2 Numeric Attributes <chap2/book.html>`_
+  + `3 Categorical Attributes <chap3/book.html>`_
+  + `4 Graph Data <chap4/book.html>`_
+  + `5 Kernel Methods <chap5/book.html>`_
+  + `6 High-dimensional Data <chap6/book.html>`_
+  + `7 Dimensionality Reduction <chap7/book.html>`_
 
-* `PART II. FREQUENT PATTERN MINING <part2/book-watermark.html>`_
+* `PART II. FREQUENT PATTERN MINING <part2/book.html>`_
 
-  + `8 Itemset Mining <chap8/book-watermark.html>`_
-  + `9 Summarizing Itemsets <chap9/book-watermark.html>`_
-  + `10 Sequence Mining <chap10/book-watermark.html>`_
-  + `11 Graph Pattern Mining <chap11/book-watermark.html>`_
-  + `12 Pattern and Rule Assessment <chap12/book-watermark.html>`_
+  + `8 Itemset Mining <chap8/book.html>`_
+  + `9 Summarizing Itemsets <chap9/book.html>`_
+  + `10 Sequence Mining <chap10/book.html>`_
+  + `11 Graph Pattern Mining <chap11/book.html>`_
+  + `12 Pattern and Rule Assessment <chap12/book.html>`_
 
-* `PART III. CLUSTERING <part3/book-watermark.html>`_
+* `PART III. CLUSTERING <part3/book.html>`_
 
-  + `13 Representative-based Clustering <chap13/book-watermark.html>`_
-  + `14 Hierarchical Clustering <chap14/book-watermark.html>`_
-  + `15 Density-based Clustering <chap15/book-watermark.html>`_
-  + `16 Spectral and Graph Clustering <chap16/book-watermark.html>`_
-  + `17 Clustering Validation  <chap17/book-watermark.html>`_
+  + `13 Representative-based Clustering <chap13/book.html>`_
+  + `14 Hierarchical Clustering <chap14/book.html>`_
+  + `15 Density-based Clustering <chap15/book.html>`_
+  + `16 Spectral and Graph Clustering <chap16/book.html>`_
+  + `17 Clustering Validation  <chap17/book.html>`_
 
-* `PART IV. CLASSIFICATION <part4/book-watermark.html>`_
+* `PART IV. CLASSIFICATION <part4/book.html>`_
 
-  + `18 Probabilistic Classification <chap18/book-watermark.html>`_
-  + `19 Decision Tree Classifier <chap19/book-watermark.html>`_
-  + `20 Linear Discriminant Analysis <chap20/book-watermark.html>`_
-  + `21 Support Vector Machines <chap21/book-watermark.html>`_
-  + `22 Classification Assessment <chap22/book-watermark.html>`_
+  + `18 Probabilistic Classification <chap18/book.html>`_
+  + `19 Decision Tree Classifier <chap19/book.html>`_
+  + `20 Linear Discriminant Analysis <chap20/book.html>`_
+  + `21 Support Vector Machines <chap21/book.html>`_
+  + `22 Classification Assessment <chap22/book.html>`_
 
-* `PART V. REGRESSION <part5/book-watermark.html>`_
+* `PART V. REGRESSION <part5/book.html>`_
 
-  + `23 Linear Regression <chap23/book-watermark.html>`_
-  + `24 Logistic Regression <chap24/book-watermark.html>`_
-  + `25 Neural Networks <chap25/book-watermark.html>`_
-  + `26 Deep Learning <chap26/book-watermark.html>`_
-  + `27 Regression Evaluation <chap27/book-watermark.html>`_
+  + `23 Linear Regression <chap23/book.html>`_
+  + `24 Logistic Regression <chap24/book.html>`_
+  + `25 Neural Networks <chap25/book.html>`_
+  + `26 Deep Learning <chap26/book.html>`_
+  + `27 Regression Evaluation <chap27/book.html>`_
 
-* `Index <index/book-watermark.html>`_
+* `Index <index/book.html>`_
