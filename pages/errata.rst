@@ -45,6 +45,8 @@ Chapter 12
 
 * pg 311, table 12.12: *conv* should be :math:`\infty` for rows 1 and 3, since *conf* is 1
 
+* pg 317, **Nonredundant Rules**, Line 3: after :math:`sup(R)=sup(R')` **add** provided that :math:`sup(W)=sup(X)`. 
+
 
 Chapter 15
 ==========
