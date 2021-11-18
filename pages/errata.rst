@@ -60,6 +60,9 @@ Chapter 15
 Chapter 16
 ==========
 
+* pg 395, last line: the weightedadjacency **should be** the weighted
+  adjacency
+
 * pg 420, Line 10: A strongly connectedcomponent 
   **should be** A strongly connected component
 
