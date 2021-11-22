@@ -63,8 +63,10 @@ Chapter 16
 * pg 395, last line: the weightedadjacency **should be** the weighted
   adjacency
 
-* pg 420, Line 10: A strongly connectedcomponent 
-  **should be** A strongly connected component
+* pg 420, Line 10: A strongly connectedcomponent in a directed graph is
+  defined a  
+  **should be** A strongly connected component in a directed graph is
+  defined as a 
 
 
 Chapter 17
