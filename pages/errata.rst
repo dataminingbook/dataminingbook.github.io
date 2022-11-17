@@ -48,6 +48,20 @@ Chapter 12
 * pg 317, **Nonredundant Rules**, Line 3: after :math:`sup(R)=sup(R')` **add** provided that :math:`sup(W)=sup(X)`. 
 
 
+Chapter 13
+==========
+
+
+* pg 359, section on "Maximization Step", line 5: 
+  :math:` \ln E[P(\mathbf{D}|\mathbf{theta}]` should be 
+  :math:` E[\ln P(\mathbf{D}|\mathbf{theta}]` 
+
+* pg 360, line 6 and line 15: 
+  :math:` \ln E[P(\mathbf{D}|\mathbf{theta}]` should be 
+  :math:` E[\ln P(\mathbf{D}|\mathbf{theta}]` 
+
+
+
 Chapter 15
 ==========
 
