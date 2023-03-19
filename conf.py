@@ -150,9 +150,7 @@ NAVIGATION_LINKS = {
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
 # although themes may not always support them. (translatable)
 # (Bootstrap 4: right-side of navbar, Bootblog 4: right side of title)
-NAVIGATION_ALT_LINKS = {
-    DEFAULT_LANG: ()
-}
+NAVIGATION_ALT_LINKS = {DEFAULT_LANG: ()}
 
 # Name of the theme to use.
 THEME = "bootstrap4"
@@ -181,7 +179,7 @@ THEME_CONFIG = {
         # Strip HTML from featured post text.
         'featured_strip_html': False,
         # Contents of the sidebar, If empty, the sidebar is not displayed.
-        'sidebar': ''
+        'sidebar': '',
     }
 }
 
@@ -559,9 +557,7 @@ INDEX_PATH = "posts"
 
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
-FRONT_INDEX_HEADER = {
-    DEFAULT_LANG: ''
-}
+FRONT_INDEX_HEADER = {DEFAULT_LANG: ''}
 
 # Create per-month archives instead of per-year
 CREATE_MONTHLY_ARCHIVE = False
@@ -980,8 +976,8 @@ CONTENT_FOOTER_FORMATS = {
             "email": BLOG_EMAIL,
             "author": BLOG_AUTHOR,
             "date": time.gmtime().tm_year,
-            "license": LICENSE
-        }
+            "license": LICENSE,
+        },
     )
 }
 
@@ -1103,10 +1099,12 @@ delimiters: [
 #       with the MarkdownExtension class and should not be added here.
 # Defaults are markdown.extensions.(fenced_code|codehilite|extra)
 # markdown.extensions.meta is required for Markdown metadata.
-MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code',
-'markdown.extensions.codehilite',
-                       'markdown.extensions.extra',
-                       'markdown.extensions.meta']
+MARKDOWN_EXTENSIONS = [
+    'markdown.extensions.fenced_code',
+    'markdown.extensions.codehilite',
+    'markdown.extensions.extra',
+    'markdown.extensions.meta',
+]
 
 # Options to be passed to markdown extensions (See https://python-markdown.github.io/reference/)
 # Default is {} (no config at all)
@@ -1244,16 +1242,28 @@ integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00
 # in the default template (base.tmpl).
 # (translatable)
 BODY_END = """
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async
-src="https://www.googletagmanager.com/gtag/js?id=UA-51598474-1"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C2JKG9HB97"></script>
 <script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'UA-51598474-1');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C2JKG9HB97');
 </script>
 """
+
+# BODY_END = """
+# <!-- Global site tag (gtag.js) - Google Analytics -->
+# <script async
+# src="https://www.googletagmanager.com/gtag/js?id=UA-51598474-1"></script>
+# <script>
+# window.dataLayer = window.dataLayer || [];
+# function gtag(){dataLayer.push(arguments);}
+# gtag('js', new Date());
+# gtag('config', 'UA-51598474-1');
+# </script>
+# """
 
 
 # The possibility to extract metadata from the filename by using a
@@ -1388,9 +1398,7 @@ WARN_ABOUT_TAG_METADATA = False
 
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
-GLOBAL_CONTEXT = {
-    'header_color': 'info'
-}
+GLOBAL_CONTEXT = {'header_color': 'info'}
 
 # Add functions here and they will be called with template
 # GLOBAL_CONTEXT as parameter when the template is about to be
