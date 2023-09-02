@@ -86,6 +86,8 @@ Chapter 16
 Chapter 17
 ==========
 
+* pg 434, contingency table: :math:`n=100` **should be** :math:`n=150`
+
 * pg 465, Q3, line 3: delete the entire line that reads: :math:`\mathcal{T}` is
   completely determined by :math:`\mathcal{C}`
 

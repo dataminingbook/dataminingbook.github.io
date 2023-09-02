@@ -2,14 +2,14 @@
 Repository</a>. This has
 five attributes with 150 instances. Ignore the last column of the data,
 which is a categorical attribute for the type of Iris flower.</p>
-<div class="section" id="kernel-feature-space">
+<section id="kernel-feature-space">
 <h1>Kernel Feature Space</h1>
 <p>Compute the centered and normalized homogeneous quadratic kernel matrix
 <span class="math">\(\mathbf{K}\)</span> for the iris dataset using the kernel
 function in input space.</p>
 <p>Next, explicitly transform each point <span class="math">\(\mathbf{x}_i\)</span> to the feature space <span class="math">\(\phi(\mathbf{x}_i)\)</span>, using the homogeneous quadratic kernel. Center these points and normalize them. Finally verify that the pair-wise dot products of the centered and normalized points in feature space yield the same kernel matrix computed directly in input space via the kernel function. To do this, compute the matrix difference between the kernel matrices from the two approaches, and then print the sum of the differences.</p>
-</div>
-<div class="section" id="principal-components-of-kernel-matrix">
+</section>
+<section id="principal-components-of-kernel-matrix">
 <h1>Principal Components of Kernel Matrix</h1>
 <p>Compute the principal components (PCs) of the centered and normalized
 kernel matrix computed above. <em>Note</em>: in Python you may use
@@ -18,4 +18,4 @@ kernel matrix computed above. <em>Note</em>: in Python you may use
 <p>Project each of the original points/rows of <span class="math">\(\mathbf{K}\)</span> onto the
 first two PCs and create a scatter plot of the projected points.  What
 is the range of values in each PC dimension?</p>
-</div>
+</section>
