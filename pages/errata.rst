@@ -33,6 +33,12 @@ Chapter 8
 Chapter 10
 ==========
 
+* pg 264, Algorithm 10.1, line 7: :math:`\mathbf{s} \in {\mathcal{C}}^{(k)}`
+  **should be** :math:`\mathbf{r} \in {\mathcal{C}}^{(k)}`
+
+* pg 264, Algorithm 10.1, line 9: remove :math:`\mathbf{s}` from :math:`{\mathcal{C}}^{(k)}`
+  **should be** remove :math:`\mathbf{r}` from :math:`{\mathcal{C}}^{(k)}`
+
 * pg 265, fig 10.2: nodes labeled *C, AT, GT, TA, TG, AAA, AGA* and *AGG* should be shaded gray. Also, extensions of an infrequent pattern are not shown.
 
 * pg 270, fig 10.4, part (f): label on the edge to leaf (1,5) should be
