@@ -1,27 +1,27 @@
 .. title: Errata
 .. slug: errata
 .. date: 2020-07-08 16:30:54 UTC-04:00
-.. tags: 
-.. category: 
-.. link: 
-.. description: 
+.. tags:
+.. category:
+.. link:
+.. description:
 .. has_math: True
 .. type: text
 
-This page contains the errata for the second edition. You can 
+This page contains the errata for the second edition. You can
 `contact us via email <contact@dataminingbook.info>`_ if you want to report any errors.
 
 Chapter 3
 ==========
 
-* pg 74, Table 3.4: :math:`\mathbf{e}_{22}` **should be** :math:`\mathbf{e}_{12}` 
+* pg 74, Table 3.4: :math:`\mathbf{e}_{22}` **should be** :math:`\mathbf{e}_{12}`
 
 
 Chapter 7
 ==========
 
-* pg 208, Algorithm 7.2, line 7: in the denominator 
-  :math:`\sum_{i=1}^d \lambda_i` **should be** :math:`\sum_{i=1}^n \lambda_i` 
+* pg 208, Algorithm 7.2, line 7: in the denominator
+  :math:`\sum_{i=1}^d \lambda_i` **should be** :math:`\sum_{i=1}^n \lambda_i`
 
 Chapter 8
 ==========
@@ -51,20 +51,20 @@ Chapter 12
 
 * pg 311, table 12.12: *conv* should be :math:`\infty` for rows 1 and 3, since *conf* is 1
 
-* pg 317, **Nonredundant Rules**, Line 3: after :math:`sup(R)=sup(R')` **add** provided that :math:`sup(W)=sup(X)`. 
+* pg 317, **Nonredundant Rules**, Line 3: after :math:`sup(R)=sup(R')` **add** provided that :math:`sup(W)=sup(X)`.
 
 
 Chapter 13
 ==========
 
 
-* pg 359, section on "Maximization Step", line 5: 
-  :math:`\ln E[P(\mathbf{D}|\mathbf{\theta})]` should be 
-  :math:`E[\ln P(\mathbf{D}|\mathbf{\theta})]` 
+* pg 359, section on "Maximization Step", line 5:
+  :math:`\ln E[P(\mathbf{D}|\mathbf{\theta})]` should be
+  :math:`E[\ln P(\mathbf{D}|\mathbf{\theta})]`
 
-* pg 360, line 6 and line 15: 
-  :math:`\ln E[P(\mathbf{D}|\mathbf{\theta})]` should be 
-  :math:`E[\ln P(\mathbf{D}|\mathbf{\theta})]` 
+* pg 360, line 6 and line 15:
+  :math:`\ln E[P(\mathbf{D}|\mathbf{\theta})]` should be
+  :math:`E[\ln P(\mathbf{D}|\mathbf{\theta})]`
 
 
 
@@ -84,9 +84,9 @@ Chapter 16
   adjacency
 
 * pg 420, Line 10: A strongly connectedcomponent in a directed graph is
-  defined a  
+  defined a
   **should be** A strongly connected component in a directed graph is
-  defined as a 
+  defined as a
 
 
 Chapter 17
@@ -103,10 +103,10 @@ Chapter 22
 ==========
 
 * pg 549, eq 22.7: :math:`\frac{1}{k} \sum_{i=1}^r F_i` **should be** :math:`\frac{1}{k} \sum_{i=1}^k F_i`
-  
+
 * pg 559, **Random Classifier**, Line 2: To see this think **should be** To
   see this, think
-  
+
 Chapter 23
 ==========
 
@@ -118,3 +118,8 @@ Chapter 24
 
 * pg 630, line 5: 0.54 **should be** 0.56
 
+
+Chapter 25
+==========
+
+* pg 645, Example 25.2, line 8: Next, we we **should be** Next, we
