@@ -57,13 +57,14 @@ Chapter 12
 Chapter 13
 ==========
 
+* pg 347, Example 13.4, Line 7: :math:`P(C_2)` **should be** :math:`P(C_1)`
 
 * pg 359, section on "Maximization Step", line 5:
-  :math:`\ln E[P(\mathbf{D}|\mathbf{\theta})]` should be
+  :math:`\ln E[P(\mathbf{D}|\mathbf{\theta})]` **should be**
   :math:`E[\ln P(\mathbf{D}|\mathbf{\theta})]`
 
 * pg 360, line 6 and line 15:
-  :math:`\ln E[P(\mathbf{D}|\mathbf{\theta})]` should be
+  :math:`\ln E[P(\mathbf{D}|\mathbf{\theta})]` **should be**
   :math:`E[\ln P(\mathbf{D}|\mathbf{\theta})]`
 
 
