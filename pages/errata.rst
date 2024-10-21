@@ -99,6 +99,11 @@ Chapter 17
   completely determined by :math:`\mathcal{C}`
 
 
+Chapter 18
+==========
+
+* pg 478, 2nd last line: :math:`\mathbf{e}_j r_j` **should be** :math:`\mathbf{e}_{j{r_j}}`
+
 
 Chapter 22
 ==========
