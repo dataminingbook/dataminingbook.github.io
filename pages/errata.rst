@@ -105,6 +105,11 @@ Chapter 18
 * pg 478, 2nd last line: :math:`\mathbf{e}_j r_j` **should be** :math:`\mathbf{e}_{j{r_j}}`
 
 
+Chapter 21
+==========
+
+* pg 537, line 6: :math:`(1,1.41,2.83,1,2,2.83)^T$` **should be** :math:`(1,1.41,2.83,1,4,2.83)^T$`
+
 Chapter 22
 ==========
 
