@@ -118,6 +118,8 @@ Chapter 22
 * pg 559, **Random Classifier**, Line 2: To see this think **should be** To
   see this, think
 
+* pg 565, Example 22.9, Line 5: is he significance level **should be** is the significance level
+
 Chapter 23
 ==========
 
