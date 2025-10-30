@@ -105,6 +105,12 @@ Chapter 18
 * pg 478, 2nd last line: :math:`\mathbf{e}_j r_j` **should be** :math:`\mathbf{e}_{j{r_j}}`
 
 
+Chapter 19
+==========
+
+* pg 492, line 9: The comment lines extends to the next, so that :math:`y_j = c_i` **is** part of the comment
+
+
 Chapter 21
 ==========
 
