@@ -141,4 +141,7 @@ Chapter 24
 Chapter 25
 ==========
 
+* pg 638, eq 25.1: :math:`\mathbf{w}^T\mathbf{x}` **should be**  :math:`\mathbf{w}_k^T\mathbf{x}`
+
 * pg 645, Example 25.2, line 8: Next, we we **should be** Next, we
+
