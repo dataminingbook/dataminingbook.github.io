@@ -108,6 +108,9 @@ Chapter 18
 Chapter 19
 ==========
 
+* pg 483 and 484: In Example 19.1 and Figure 19.1(a), the hyperplane :math:`h_0` **should
+  be** :math:`h_1` everywhere it appears.
+
 * pg 492, line 9: The comment lines extends to the next, so that :math:`y_j = c_i` **is** part of the comment
 
 
