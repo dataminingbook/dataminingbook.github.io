@@ -122,6 +122,9 @@ Chapter 21
 Chapter 22
 ==========
 
+* pg 538, 5th line from bottom: in the expression for :math:`L_{dual}`, 
+  :math:`- \sum_{i=1}^n \alpha_i` **should be** :math:`+ \sum_{i=1}^n \alpha_i` 
+
 * pg 549, eq 22.7: :math:`\frac{1}{k} \sum_{i=1}^r F_i` **should be** :math:`\frac{1}{k} \sum_{i=1}^k F_i`
 
 * pg 559, **Random Classifier**, Line 2: To see this think **should be** To
